@@ -17,7 +17,7 @@ export class HomePage {
 	}
 
 	testFlash(){
-		this.flashProvider.show('Base is under attack!', 2000);
+		this.flashProvider.show('Base is under attack!', 2000, 'danger');
 	}
 
 }
